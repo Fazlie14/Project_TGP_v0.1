@@ -1,13 +1,16 @@
 import React from 'react'
-import Fieldset from '../../component/layouts/Fieldset'
+import Fieldset from '../../layouts/Fieldset'
 function Login() {
   return (
-   <>
-    <Fieldset title="Login"/>
+   <div className='flex items-center justify-center h-screen'>
+    <Fieldset/>
+   </div>
+  
+ 
 
 
   
-   </>
+
   )
 }
 
