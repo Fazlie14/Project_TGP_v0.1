@@ -1,10 +1,7 @@
 import { Outlet } from 'react-router-dom'
-import React from 'react'
 import Navbar from '../component/common/Navbar'
 import Sidebar from '../component/common/Sidebar'
-import Dashboard from '../pages/superAdmin/Dashboard'
-import Admin from '../pages/admin/Admin'
-import Member from '../pages/member/Member'
+
 function DashboardLayout() {
   return (
     <div className='drawer lg:drawer-open'>
